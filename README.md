@@ -1,3 +1,94 @@
+
+----------
+Lip2Wav - Optimizetion for Hebrew with Old GPU optimizetion 
+----------
+
+this fork is based on the Rudrabha/Lip2Wav project.
+based on the paper *Generate high quality speech from only lip movements*. This code is part of the paper: _Learning Individual Speaking Styles for Accurate Lip to Speech Synthesis_ published at CVPR'20.
+
+this is our final project for Human-AI Co-Creation with Prof. Doron Friedman
+
+----------
+Dataset 
+----------
+The dataset is the most valuable and sensitive process that must be done before the actual AI Process.
+we choose to use to liraz roxy (https://www.youtube.com/channel/UCS6_E-29H4UAUgpNEKrO-aA) we choose to use to liraz roxy as out datset for a couple of rezones :
+- only one speaker 
+- face is large 
+- very high qualeti vedioes 
+- very high qualeti audio 
+
+the full list is located under :
+- Lip2Wav-master\Dataset\danny
+
+include three datasets :
+- train.txt
+- test.txt
+- val.txt
+
+:tada: you can open each of the files and chssoe one row and just add to https://www.youtube.com/watch?v=<your line) 
+for example : https://www.youtube.com/watch?v=Glejmr9J2qk&t=322s
+
+
+
+
+
+
+
+
+----------
+Install Environment - walkthrough 
+----------
+this good in two situations 
+- your AI PC (in my case 980Ti 6G)
+- Remote pc rental PC for AI (i used Fluidstack for fast GPU)
+setup - persnal PC (windows) - remote PC(linux Ubuntu 20.04 LTS)
+
+----------
+windows Tools 
+----------
+install them in order to copy files form windows to linux
+- WinSCP(file transfer) : https://winscp.net/eng/download.php
+- PuTTY(ssh connection) : https://www.putty.org
+### You might also be interested in:
+:tada: Lip-sync talking face videos to any speech using Wav2Lip: https://github.com/Rudrabha/Wav2Lip
+
+
+
+
+
+
+
+
+windows Tools:
+
+
+----------
+Dataset 
+----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Update: In case you are looking for Wav2Lip, it is in https://github.com/Rudrabha/Wav2Lip
 # Lip2Wav
 
